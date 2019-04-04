@@ -1,12 +1,27 @@
 # Time-Series-Forecast-NSE-Data
 
-Create a repository on github named "python-test" and send us the link. you will upload your work to this repo.
- 
-Dataset selection:
-Use: https://github.com/swapniljariwala/nsepy
-Source OCLHV data for NSE stocks (INFY,TCS) between 2015-2016. Data level - Daily.
-Source OCLHV data for NIFTY IT index. Data level - Daily.
- 
+#Required packages (install these libraries using pip command)
+Numpy
+Pandas
+Matplotlib
+bokeh
+
+#steps of part - 1
+1. lodind data using pandas library 
+2. creating a data frame in one list
+3. nex we using to_datetime method for convert string Date time into Python Date time object
+# data (Feature) extraction
+1. next we extracting a feture from dataset, the following added feature block appends new columns in data(TCS, INFY, NIFTY)
+2. We will extract the time and date from the Datetime We made some hypothesis for the effect of day,month and week of year on the NSE data. So, from the Datetime to validate our hypothesis.
+3. we select Close column as a target variable.
+# indexing the Datetime to get the time period on the x-axis.
+# First Resampling into Weeks format to calculate for weeks
+# M.A using as a inbuilt function    
+# next we are calculating a moving average(close price) for weeks
+
+
+
+
 Part 1:
 1. Create 4,16,....,52 week moving average(closing price) for each stock and index. This should happen through a function.
 2. Create rolling window of size 10 on each stock/index. Handle unequal time series due to stock market holidays. You should look to increase your rolling window size to 75 and see how the data looks like. Remember they will create stress on your laptop RAM load. ( Documentation you might need: http://in.mathworks.com/help/econ/rolling-window-estimation-of-state-space-models.html)
