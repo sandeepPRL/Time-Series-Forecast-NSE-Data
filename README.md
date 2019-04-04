@@ -31,6 +31,7 @@ Bokeh is a Python library for interactive visualization that targets web browser
 - https://www.analyticsvidhya.com/blog/2018/10/predicting-stock-price-machine-learningnd-deep-learning-techniques-python/
 - https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/
 
+# Problem
 Part 1:
 1. Create 4,16,....,52 week moving average(closing price) for each stock and index. This should happen through a function.
 2. Create rolling window of size 10 on each stock/index. Handle unequal time series due to stock market holidays. You should look to increase your rolling window size to 75 and see how the data looks like. Remember they will create stress on your laptop RAM load. ( Documentation you might need: http://in.mathworks.com/help/econ/rolling-window-estimation-of-state-space-models.html)
