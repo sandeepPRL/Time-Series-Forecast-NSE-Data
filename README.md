@@ -26,6 +26,10 @@ after completed all 3.1, 3.2, and 3.4 steps
 #part 2 - visualization with bokeh
 Bokeh is a Python library for interactive visualization that targets web browsers for representation.
 
+# References
+- https://courses.analyticsvidhya.com/courses/take/creating-time-series-forecast-using-python/texts/6133138-feature-extraction
+- https://www.analyticsvidhya.com/blog/2018/10/predicting-stock-price-machine-learningnd-deep-learning-techniques-python/
+- https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/
 
 Part 1:
 1. Create 4,16,....,52 week moving average(closing price) for each stock and index. This should happen through a function.
