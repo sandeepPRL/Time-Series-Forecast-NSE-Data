@@ -6,20 +6,25 @@ Pandas
 Matplotlib
 bokeh
 
-#steps of part - 1
+# steps
 1. lodind data using pandas library 
 2. creating a data frame in one list
 3. nex we using to_datetime method for convert string Date time into Python Date time object
-# data (Feature) extraction
+#Data (Feature) extraction
 1. next we extracting a feture from dataset, the following added feature block appends new columns in data(TCS, INFY, NIFTY)
 2. We will extract the time and date from the Datetime We made some hypothesis for the effect of day,month and week of year on the NSE data. So, from the Datetime to validate our hypothesis.
 3. we select Close column as a target variable.
-# indexing the Datetime to get the time period on the x-axis.
-# First Resampling into Weeks format to calculate for weeks
-# M.A using as a inbuilt function    
-# next we are calculating a moving average(close price) for weeks
+#Indexing the Datetime to get the time period on the x-axis.
+#First Resampling into Weeks format to calculate for weeks
+#M.A using as a inbuilt function    
+#Next we are calculating a moving average(close price) for weeks
 
+- Next we are using a window size = 10 then we use window size = 75 and we create a rolling window of size 10 on each stock/index
+- In next Volume shocks we considering only shock - 1 valued rows. 0 for negative and 1 for positive.
+after completed all 3.1, 3.2, and 3.4 steps 
 
+#part 2 - visualization with bokeh
+Bokeh is a Python library for interactive visualization that targets web browsers for representation.
 
 
 Part 1:
